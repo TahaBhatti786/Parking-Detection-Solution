@@ -1,0 +1,9 @@
+Stage,Mean (ms),Median (ms),Std (ms)
+ROI Crop & Resize,0.2584,0.2529,0.0135
+OpenCV Preprocessing (CLAHE+Blur),0.172,0.1651,0.0166
+HOG Extraction (1764D),2.0582,1.8163,0.5644
+Feature Scaling,0.1516,0.1222,0.0593
+ML Forward Pass (KNN),1.069,0.9623,0.2685
+ML Forward Pass (Logistic Regression),0.0997,0.094,0.0077
+Total End-to-End Spot Latency (KNN),7.36,6.69,1.48
+Total End-to-End Spot Latency (LogReg),3.9,3.69,0.53

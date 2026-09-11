@@ -1,0 +1,5 @@
+Model,Accuracy,Precision (Macro),Recall (Macro),F1 (Macro),CV F1 Mean,CV F1 Std,Available Precision,Available Recall,Available F1,Train Time (s),Latency (ms/sample)
+Logistic Regression,0.9558,0.9573,0.9375,0.9466,0.939,0.0238,0.9608,0.8909,0.9245,0.1402,0.0176
+K-Nearest Neighbors,0.9669,0.9508,0.9762,0.9619,0.9236,0.015,0.9016,1.0,0.9483,0.0035,0.1858
+Support Vector Machine,0.9558,0.9573,0.9375,0.9466,0.9585,0.01,0.9608,0.8909,0.9245,1.6416,0.6335
+Random Forest,0.9282,0.9448,0.8869,0.9096,0.9316,0.0219,0.9773,0.7818,0.8687,0.5409,0.2319
